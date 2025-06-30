@@ -2,9 +2,9 @@
 
 # For Windows Authentication
 ```
-.\Invoke-MSSQL-CISAudit.ps1 -SqlServer "localhost" -UseWindowsAuth
+.\MSSQL-CISAudit.ps1 -SqlServer "localhost" -UseWindowsAuth
 ```
 # For SQL Authentication
 ```
-.\Invoke-MSSQL-CISAudit.ps1 -SqlServer "localhost" -Username "sa" -Password "yourpassword"
+.\MSSQL-CISAudit.ps1 -SqlServer "localhost" -Username "sa" -Password "yourpassword"
 ```
